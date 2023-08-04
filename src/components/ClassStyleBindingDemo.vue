@@ -25,6 +25,9 @@ const isYellowColorClass = ref(false);
 const isActive = ref(true);
 function toggleClasses() {
 
+    console.log(isActive);
+
+    console.log(isYellowColorClass);
     if (isYellowColorClass.value) {
         isYellowColorClass.value = false;
         isGreenColorClass.value = true;

@@ -1,5 +1,6 @@
 <script setup>
 import ClassStyleBindingDemo from './components/ClassStyleBindingDemo.vue';
+console.log(ClassStyleBindingDemo) // test
 </script>
 
 <template>
